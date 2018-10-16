@@ -1,0 +1,24 @@
+if &compatible
+	set nocompatible
+end
+
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+Bundle 'gmarik/vundle'
+
+" define bundles via GitHub repos
+Bundle 'Valloric/YouCompleteMe'
+Bundle 'vim-scripts/ctags.vim'
+Bundle 'scrooloose/nerdtree'
+Bundle 'fholgado/minibufexpl.vim'
+" Bundle 'taglist.vim'
+Bundle 'majutsushi/tagbar'
+Bundle 'c.vim'
+Bundle 'octol/vim-cpp-enhanced-highlight'
+Bundle 'derekwyatt/vim-fswitch'
+Bundle 'derekwyatt/vim-protodef'
+
+filetype on
